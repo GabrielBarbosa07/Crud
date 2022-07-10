@@ -88,7 +88,6 @@
     .modal{
         display: flex;
         justify-content: center;
-        
         top:100%;
         transition: all 1s ease;
     }
@@ -98,11 +97,16 @@
     }
     .modal-content{
         margin:auto;
-        width:50%;
+        width:55%;
         position:fixed;
         margin-top: 14%;
     }
     .modal-field{
         width:100%;
+    }
+    @media(max-width:480px){
+        .modal-content{
+            width: 70%;
+        }
     }
 }

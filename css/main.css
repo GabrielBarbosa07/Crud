@@ -48,7 +48,7 @@ main{
 
 .ft{
     text-align: center;
-    margin-bottom: 10px;
+    margin: 20px 0px;
 }
 
 .ft>p>a{
@@ -58,17 +58,21 @@ main{
 }
 
 @media (max-width:480px){
+    body{
+        min-width: 450px;
+    }
     header{
         position:fixed;
         width:100%;
     }
     .header-title{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     main{
-        padding: 0;
-        margin: 20px 0 0 0;
+        padding: 10px;
+        margin: 10px 0 0 0;
         width:100%;
     }
+    
 }

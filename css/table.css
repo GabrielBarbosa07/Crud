@@ -13,6 +13,12 @@
     table-layout: fixed;
 }
 
+.responsiveTable caption{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
 .responsiveTable tr {
     border-bottom: 1px solid #d1d1d161;
     padding: 0.35rem;
@@ -65,6 +71,13 @@
 @media(max-width:600px){
     .responsiveTable td:last-child{
         text-align: center;
-
+    }
+}
+@media(max-width:480px) {
+    .responsiveTable{
+        margin-top: 70px;
+    }
+    .responsiveTable tr:last-child{
+        border: none;
     }
 }
